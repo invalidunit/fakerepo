@@ -14,6 +14,7 @@ Author: zhaonan <invalidunit@icloud.com>
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
 Name: debd
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+Tag: cydia::commercial
 
 Package: com.nan.debd
 Version: 0.3.7
@@ -31,6 +32,7 @@ Author: zhaonan <invalidunit@icloud.com>
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
 Name: debd
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+Tag: cydia::commercial
 
 Package: com.nan.debd
 Version: 0.3.7
@@ -48,4 +50,4 @@ Author: zhaonan <invalidunit@icloud.com>
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
 Name: debd
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
-
+Tag: cydia::commercial
