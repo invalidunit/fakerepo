@@ -1,0 +1,9 @@
+{
+   "name": "zhaonan's fake repo",
+   "icon": "https://invalidunit.github.io/fakerepo/CydiaIcon@3x.png",
+   "description": "testttt",
+   "authentication_banner": {
+      "message": "login to test",
+      "button": "Sign in"
+   }
+}
