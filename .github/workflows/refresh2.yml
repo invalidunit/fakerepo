@@ -1,0 +1,38 @@
+name: "refresh2"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          
+      - name: Install Procursus
+        uses: dhinakg/procursus-action@main
+        with:
+          packages: dpkg-dev bzip2 xz-utils zstd git
+
+      - name: Refresh Packages
+        if: success()
+        run: |
+          rm -rf ./Packages.*
+          #dpkg-scanpackages -m ./debs /dev/null >./Packages
+          bzip2 -v -k -9 Packages
+          xz -v -k -9 --extreme Packages
+          zstd --ultra -22 -k Packages -o Packages.zst
+
+      - name: save change if local change
+        if: success()
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          if ! git diff --staged --exit-code 1>>/dev/null; then
+            git commit -m 'Refresh Packages'
+            git push
+          fi
