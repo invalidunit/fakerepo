@@ -3,7 +3,7 @@ Version: 0.3.7
 Architecture: iphoneos-arm64e
 Maintainer: zhaonan
 Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq
-Filename: ./debs/com.nan.debd_0.3.7_iphoneos-arm64e.deb
+Filename: ./debs/deb.deb
 Size: 4568
 MD5sum: 22cf70426e4df4a9abe931b06e7442cf
 SHA1: e3f4f6b6c5c4dda0a900754ecfcfec75fbe00c3d
@@ -21,7 +21,7 @@ Version: 0.3.7
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq
-Filename: ./debs/com.nan.debd_0.3.7_iphoneos-arm.deb
+Filename: ./debs/deb.deb
 Size: 4564
 MD5sum: ab4ce8c4b97dc8ad0a8f32655e65b194
 SHA1: 67f9f4c6b6ad4794b88ae0adc79012c07d2595ec
@@ -39,7 +39,7 @@ Version: 0.3.7
 Architecture: iphoneos-arm64
 Maintainer: zhaonan
 Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq
-Filename: ./debs/com.nan.debd_0.3.7_iphoneos-arm64.deb
+Filename: ./debs/deb.deb
 Size: 4580
 MD5sum: 8d44d6b2c460b60fc9a983b0b676902e
 SHA1: 9fea652fae4f15505596bdb6da682593b133085d
