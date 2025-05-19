@@ -1,0 +1,7 @@
+Origin: zhaonan's fake Repo
+Label: zhaonan's fake Repo
+Description: test
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
